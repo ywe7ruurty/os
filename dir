@@ -1,0 +1,9 @@
+import os
+
+# Получение текущего рабочего каталога
+current_dir = os.getcwd()
+print(current_dir)
+
+# Получение списка файлов в каталоге
+file_list = os.listdir(current_dir)
+print(file_list)
